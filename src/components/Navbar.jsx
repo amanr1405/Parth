@@ -7,7 +7,7 @@ function Navbar() {
         <nav>
             <div className='logo'><a href="/">Home</a></div>
             <div className='navlink'>
-                <a href="#service">Services</a>
+                <a href="#service">Work</a>
                 <a href="#about">About</a>
             </div>
 

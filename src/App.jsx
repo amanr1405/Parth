@@ -3,9 +3,9 @@ import Heroic from '../src/sections/Heroic'
 import Info from '../src/sections/Info'
 import Des from '../src/sections/Des'
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
-
-
+import Lenis from "@studio-freight/lenis"
+import Work from '../src/sections/Work'
+import Footer from '../src/components/Footer'
 
 function App() {
   useEffect(() => {
@@ -30,6 +30,8 @@ function App() {
       <Heroic />
       <Info />
       <Des />
+      <Work />
+      <Footer />
     </div>
   )
 }
