@@ -132,7 +132,7 @@ hr {
 
 .info-title p,
 .info-container1 h1,
-.des-container-info1 h1 {
+.des-container-info1 h1, .working h1{
   color: #FF004F;
   font-size: 1.5rem;
 }
@@ -283,7 +283,6 @@ hr {
   justify-content: space-evenly;
   text-align: center;
   width: auto;
-  color: #fff;
   padding: 30px;
   height: 100%;
 }
