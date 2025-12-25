@@ -463,8 +463,6 @@ hr {
 
 
 
-/* Mobile view */
-
 /* =======================
    MOBILE RESPONSIVE CSS
    ======================= */
@@ -475,6 +473,7 @@ hr {
   /* HERO SECTION */
   .heroic-bg {
     height: 100vh;
+    background-attachment: scroll;
   }
 
   .heroic-left {
@@ -528,6 +527,7 @@ hr {
   .des-bg {
     height: auto;
     padding: 60px 20px;
+     background-attachment: scroll;
   }
 
   .des-container {
