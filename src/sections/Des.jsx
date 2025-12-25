@@ -5,7 +5,7 @@ import ModelDisplay from '../components/ModelDisplay'
 
 function Des() {
   return (
-    <div className='des-bg'>
+    <div className='des-bg' id='About'>
         <div className='des-container'>
             <div className='des-container-info1'>
                 <h1>Technology Stack</h1>

@@ -11,6 +11,10 @@
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   width: 100vw;
   height: 80px;

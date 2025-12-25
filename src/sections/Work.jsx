@@ -2,7 +2,7 @@ import React from 'react'
 
 function Work() {
   return (
-    <div className='working'>
+    <div className='working' id='Work'>
       <div className='work-left'>
         <h1>System Architecture</h1>
         <img src="architecture.png"/>
