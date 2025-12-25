@@ -1,0 +1,578 @@
+:root {
+  font-family: "Outfit";
+  font-weight: 200;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100vw;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #101010;
+}
+
+.logo a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navlink a {
+  margin-right: 20px;
+}
+
+nav .navlink {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #FF004F;
+}
+
+.heroic-bg {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to top,
+      rgba(1, 1, 1, 1),
+      rgba(0, 0, 0, 0.1)), url(./assets/heroic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroic-inside {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.heroic-left, .info-bg {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.heroic-left .heroic-left-info p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: -20px;
+
+}
+
+.heroic-left .heroic-left-info h1 {
+  color: #fff;
+  font-size: 8rem;
+  font-weight: 900;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear bot
+}
+
+.heroic-left p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background-color: #FF004F;
+  border-radius: 20px;
+}
+
+
+.info-bg {
+  height: auto;
+  width: 100vw;
+  padding: 100px 30px 100px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #101010;
+  text-align: center;
+}
+
+.info-title h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.info-title p,
+.info-container1 h1,
+.des-container-info1 h1 {
+  color: #FF004F;
+  font-size: 1.5rem;
+}
+
+.info-container .info-des{
+  width: 80%;
+}
+
+.info-container {
+  background-color: #101010;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+
+}
+
+
+.info-des {
+  font-size: 1.2rem;
+}
+
+.info-container-bento {
+  display: flex;
+}
+
+.info-container1 {
+  border-radius: 10px;
+  margin: 30px;
+  width: 50%;
+  background-color: #242624;
+  padding: 30px;
+}
+
+
+.features {
+  border-radius: 30px;
+  border: 2px solid #fff;
+  background-color: #101010;
+  padding: 15px 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+  color: #fff;
+}
+
+.des-bg {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to top,
+      rgba(1, 1, 1, 1),
+      rgba(0, 0, 0, 0.1)), url(./assets/heroic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 100px 30px 100px 30px;
+
+}
+
+.des-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.des-container-info1 {
+  width: 30%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(0, 0, 0, 0.5),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0px 0px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+
+}
+
+.des-container-info2 {
+  width: 30%;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons img {
+  background-color: #fff;
+  display: inline;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.des-container-info3 {
+  width: 30%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(0, 0, 0, 0.5),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0px 0px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.des-container-info3 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.des-container-info2 {
+  display: flex;
+  align-items: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scroll Bar */
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 5px;
+  /* vertical scrollbar width */
+  height: 5px;
+  /* horizontal scrollbar height */
+}
+
+/* Scrollbar Track (background) */
+::-webkit-scrollbar-track {
+  background: #171721;
+  /* dark track */
+}
+
+/* Scrollbar Thumb (draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #FF004F;
+  /* orange thumb */
+  border: 1px solid #FF004F;
+  /* space around thumb */
+  border-radius: 100px 0px 0px 100px;
+}
+
+
+
+
+/* Text Flicker */
+@-webkit-keyframes text-flicker-in-glow {
+  0% {
+    opacity: 0
+  }
+
+  10% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  10.1% {
+    opacity: 1;
+    text-shadow: none
+  }
+
+  10.2% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  20% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .25)
+  }
+
+  20.6% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  30% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  30.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .45), 0 0 60px rgba(255, 255, 255, .25)
+  }
+
+  30.5% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .45), 0 0 60px rgba(255, 255, 255, .25)
+  }
+
+  30.6% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  45% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  45.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .45), 0 0 60px rgba(255, 255, 255, .25)
+  }
+
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .45), 0 0 60px rgba(255, 255, 255, .25)
+  }
+
+  55% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .45), 0 0 60px rgba(255, 255, 255, .25)
+  }
+
+  55.1% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  57% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  57.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .55), 0 0 60px rgba(255, 255, 255, .35)
+  }
+
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .55), 0 0 60px rgba(255, 255, 255, .35)
+  }
+
+  60.1% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  65% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  65.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .55), 0 0 60px rgba(255, 255, 255, .35), 0 0 100px rgba(255, 255, 255, .1)
+  }
+
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .55), 0 0 60px rgba(255, 255, 255, .35), 0 0 100px rgba(255, 255, 255, .1)
+  }
+
+  75.1% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  77% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  77.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .55), 0 0 60px rgba(255, 255, 255, .4), 0 0 110px rgba(255, 255, 255, .2), 0 0 100px rgba(255, 255, 255, .1)
+  }
+
+  85% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .55), 0 0 60px rgba(255, 255, 255, .4), 0 0 110px rgba(255, 255, 255, .2), 0 0 100px rgba(255, 255, 255, .1)
+  }
+
+  85.1% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  86% {
+    opacity: 0;
+    text-shadow: none
+  }
+
+  86.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .6), 0 0 60px rgba(255, 255, 255, .45), 0 0 110px rgba(255, 255, 255, .25), 0 0 100px rgba(255, 255, 255, .1)
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, .6), 0 0 60px rgba(255, 255, 255, .45), 0 0 10px rgba(255, 255, 255, .25), 0 0 10px rgba(255, 255, 255, .1)
+  }
+}
+
+
+
+
+
+/* Mobile view */
+
+/* =======================
+   MOBILE RESPONSIVE CSS
+   ======================= */
+
+@media (max-width: 768px) {
+
+
+  /* HERO SECTION */
+  .heroic-bg {
+    height: 100vh;
+  }
+
+  .heroic-left {
+    width: 100%;
+    padding: 50% 40px 40px 40px;
+    justify-content: center;
+  }
+
+  .heroic-left .heroic-left-info h1 {
+    font-size: 3rem;
+  }
+
+  .heroic-left .heroic-left-info p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .heroic-left p {
+    font-size: 1.1rem;
+  }
+
+  /* INFO SECTION */
+  .info-bg {
+    padding: 60px 20px;
+  }
+
+  .info-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-container .info-des {
+    width: 100%;
+  }
+
+  .info-container-bento {
+    flex-direction: column;
+  }
+
+  .info-container1 {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  /* FEATURES */
+  .features {
+    font-size: 0.9rem;
+    padding: 10px 14px;
+  }
+
+  /* DESCRIPTION SECTION */
+  .des-bg {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .des-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .des-container-info1,
+  .des-container-info2,
+  .des-container-info3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .des-container-info2{
+    width: 100%;
+    height: 500px;
+  }
+
+  .des-container-info3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ICONS */
+  .icons {
+    flex-wrap: wrap;
+  }
+}
+
+.info-bg{
+  text-align: left;
+}
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 480px) {
+
+  .heroic-left .heroic-left-info h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-title h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+}
