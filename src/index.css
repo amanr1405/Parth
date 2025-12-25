@@ -114,7 +114,9 @@ hr {
 .info-bg {
   height: auto;
   width: 100vw;
-  padding: 100px 30px 100px 30px;
+  padding: 80px 30px 80px 30px;
+  border-top: 20px solid #FF004F;
+  border-bottom: 20px solid #FF004F;
   display: flex;
   flex-direction: column;
   gap: 20px;
